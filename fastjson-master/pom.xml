@@ -18,7 +18,9 @@
 		<gpg.skip>true</gpg.skip>
 		<javadoc.skip>false</javadoc.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<jdk.version>1.6</jdk.version>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+		<jdk.version>1.8.0_131</jdk.version>
 	</properties>
 
 	<scm>
@@ -619,15 +621,6 @@
 
 	</profiles>
 
-</project>
-
-<project ...>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
-
-    <!-- ...... -->
 
     <reporting>
         <plugins>
